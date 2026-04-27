@@ -32,10 +32,14 @@ import tripguide from "./tripguide.png";
 import appmeals from "./appmeals.png";
 import appgym from './appgym.png'
 import appmusic from './appmusic.png'
+import cadi from './company/cadi.png'
+import udemy from './company/udemy.png'
 
 export {
   logo,
   backend,
+  cadi,
+  udemy,
   creator,
   mobile,
   web,

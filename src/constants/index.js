@@ -22,7 +22,9 @@ import {
     jobit,
     freecodecamp,
     appmeals,
-    appmusic
+    appmusic,
+    cadi,
+    udemy
   } from "../assets";
   
 export const navLinks = [
@@ -53,10 +55,10 @@ const services = [
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
 const technologies = [
@@ -110,36 +112,102 @@ const technologies = [
     },
 ];
   
-const formations = [
-    {
-      title: "Front end Developer",
-      company_name: "FreecodeCamp",
-      icon: freecodecamp,
-      iconBg: "#383E56",
-      date: "March 2022 - Aout 2022",
-      points: [
-        "As a Front End Developer, I mastered essential technologies including CSS, HTML, JavaScript, and ReactJS:",
-        "I learned to design visually appealing and responsive websites", 
-        "enhance user experience through interactive elements, and build dynamic web applications",
-        "By the end of the course, I acquired the skills to craft elegant interfaces, optimize user journeys, and prepare for diverse roles in web development", 
-        "ranging from UI/UX design to frontend engineering."
-      ],
-    },
-    {
-      title: "Software engineering (Full stack)",
-      company_name: "Alx Software engineering",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Feb 2024",
-      points: [
-        "Backend Proficiency: Explore server-side technologies and databases. Acquire skills in backend frameworks such as Node.js, Django, or Express.js. Dive into database management systems like MongoDB or SQL to store and retrieve data efficiently.",
-        "Full Stack Synergy: Integrate frontend and backend technologies seamlessly. Understand the architecture of full stack applications, ensuring smooth communication between client and server, and creating dynamic, data-driven websites and web applications.",
-        "Version Control & Collaboration: Master tools like Git and GitHub for version control and collaborative coding. Learn the best practices of team development, enabling you to work effectively in a collaborative software development environment."
-      ],
-    },
+// const formations = [
+//     {
+//       title: "Front end Developer",
+//       company_name: "FreecodeCamp",
+//       icon: freecodecamp,
+//       iconBg: "#383E56",
+//       date: "March 2022 - Aout 2022",
+//       points: [
+//         "As a Front End Developer, I mastered essential technologies including CSS, HTML, JavaScript, and ReactJS:",
+//         "I learned to design visually appealing and responsive websites", 
+//         "enhance user experience through interactive elements, and build dynamic web applications",
+//         "By the end of the course, I acquired the skills to craft elegant interfaces, optimize user journeys, and prepare for diverse roles in web development", 
+//         "ranging from UI/UX design to frontend engineering."
+//       ],
+//     },
+//     {
+//       title: "Software engineering (Full stack)",
+//       company_name: "Alx Software engineering",
+//       icon: tesla,
+//       iconBg: "#E6DEDD",
+//       date: "Jan 2023 - Feb 2024",
+//       points: [
+//         "Backend Proficiency: Explore server-side technologies and databases. Acquire skills in backend frameworks such as Node.js, Django, or Express.js. Dive into database management systems like MongoDB or SQL to store and retrieve data efficiently.",
+//         "Full Stack Synergy: Integrate frontend and backend technologies seamlessly. Understand the architecture of full stack applications, ensuring smooth communication between client and server, and creating dynamic, data-driven websites and web applications.",
+//         "Version Control & Collaboration: Master tools like Git and GitHub for version control and collaborative coding. Learn the best practices of team development, enabling you to work effectively in a collaborative software development environment."
+//       ],
+//     },
     
-  ];
-  
+//   ];
+const formations = [
+  {
+    title: "Software Engineering Program (Full Stack)",
+    company_name: "Holberton School (ALX)",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "2022 - 2024",
+    points: [
+      "Intensive full-stack training focused on real-world software development",
+      "Built scalable applications using JavaScript, Node.js, Express, and React",
+      "Worked with relational and NoSQL databases (MySQL, PostgreSQL, MongoDB)",
+      "Applied best practices in system design, debugging, and performance optimization",
+      "Used Git, Linux, and CI/CD workflows in collaborative development environments"
+    ],
+  },
+  {
+    title: "Front-End Development Certification",
+    company_name: "FreeCodeCamp",
+    icon: freecodecamp,
+    iconBg: "#383E56",
+    date: "2022",
+    points: [
+      "Developed responsive user interfaces using HTML, CSS, JavaScript, and React",
+      "Built interactive web applications with modern frontend practices",
+      "Focused on accessibility, performance, and user experience",
+      "Completed multiple hands-on projects simulating real-world scenarios"
+    ],
+  },
+  {
+    title: "Back-End Development & APIs",
+    company_name: "FreeCodeCamp",
+    icon: freecodecamp,
+    iconBg: "#383E56",
+    date: "2023",
+    points: [
+      "Designed and developed RESTful APIs using Node.js and Express",
+      "Worked with MongoDB for data modeling and persistence",
+      "Implemented authentication and server-side logic",
+      "Built full backend services for scalable applications"
+    ],
+  },
+  {
+    title: "The Ultimate MySQL Bootcamp",
+    company_name: "Udemy",
+    icon: udemy,
+    iconBg: "#383E56",
+    date: "2023",
+    points: [
+      "Learned SQL fundamentals, joins, indexing, and query optimization",
+      "Designed relational databases and structured data models",
+      "Applied MySQL in real-world application scenarios"
+    ],
+  },
+  {
+    title: "Bachelor's Degree in Energy Efficiency & Renewable Energy",
+    company_name: "Cadi Ayyad University",
+    icon: cadi,
+    iconBg: "#E6DEDD",
+    date: "2014 - 2018",
+    points: [
+      "Specialized in energy efficiency systems and renewable energy technologies",
+      "Studied solar, wind, and sustainable energy solutions with real-world applications",
+      "Developed analytical and problem-solving skills through technical coursework and projects",
+      "Gained knowledge in energy optimization, system performance, and environmental impact"
+    ],
+  },
+];
 const testimonials = [
     {
       testimonial:
